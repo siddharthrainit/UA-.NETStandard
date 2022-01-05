@@ -1,5 +1,7 @@
 extraction:
   csharp:
     index:
-      buildless: true
-      nuget_restore: false
+      solution: "UA Core Library.sln"
+      msbuild:
+        configuration: "debug"
+        platform: "Any CPU"
